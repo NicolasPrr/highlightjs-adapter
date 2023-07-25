@@ -1,14 +1,20 @@
 {
-  "name": "@nicolasprr/highlightjs-adapter",
+  "name": "highlightjs-adapter",
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "dist/highlightjs-adapter.umd.js",
+  "module": "dist/highlightjs-adapter.mjs",
+  "types": "dist/highlightjs-adapter.index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/highlightjs-adapter.es.js",
+      "require": "./dist/highlightjs-adapter.umd.js"
+    }
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
