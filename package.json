@@ -1,7 +1,7 @@
 {
   "name": "highlightjs-adapter",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "dist/highlightjs-adapter.umd.js",
   "module": "dist/highlightjs-adapter.es.js",
@@ -45,7 +45,7 @@
   "description": "A react adapter for highlight.js library",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Petsamuel/react-library-scaffold.git"
+    "url": "git+https://github.com/NicolasPrr/highlightjs-adapter.git"
   },
   "keywords": [
     "react",
@@ -53,11 +53,8 @@
     "highlight",
     "highlight.js"
   ],
-  "bugs": {
-    "url": "https://github.com/issues"
-  },
   "author": "Nicolas Parra",
-  "homepage": "https://github.com//react-library-scaffold#readme",
+  "homepage": "https://github.com/NicolasPrr/highlightjs-adapter#readme",
   "publishConfig": {
     "@nicolasprr:registry": "https://npm.pkg.github.com"
   }
