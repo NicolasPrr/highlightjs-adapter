@@ -1,20 +1,14 @@
 {
   "name": "highlightjs-adapter",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/highlightjs-adapter.umd.js",
-  "module": "dist/highlightjs-adapter.mjs",
-  "types": "dist/highlightjs-adapter.index.d.ts",
+  "module": "dist/highlightjs-adapter.es.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/highlightjs-adapter.es.js",
-      "require": "./dist/highlightjs-adapter.umd.js"
-    }
-  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -23,6 +17,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "highlight.js": "^11.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }, 
+  "peerDependencies": {
     "highlight.js": "^11.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
